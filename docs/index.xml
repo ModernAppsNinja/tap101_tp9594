@@ -1,0 +1,67 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Intro to Tanzu Application Platform – Intro to Tanzu Application Platform</title><link>https://modernappsninja.github.io/tap101_tp9594/docs/</link><description>Recent content on Intro to Tanzu Application Platform</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://modernappsninja.github.io/tap101_tp9594/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: New Course Template Instructions</title><link>https://modernappsninja.github.io/tap101_tp9594/docs/course_template_instructions/</link><pubDate>Mon, 12 Oct 2020 18:34:25 -0700</pubDate><guid>https://modernappsninja.github.io/tap101_tp9594/docs/course_template_instructions/</guid><description>
+&lt;h3 id="welcome-to-the-modernapps-ninja-new-course-template">Welcome to the ModernApps Ninja New Course Template.&lt;/h3>
+&lt;h4 id="creating-a-new-course">Creating a new course&lt;/h4>
+&lt;p>&lt;strong>Note:&lt;/strong> If you do not have Collaborator or higher level permissions in the ModernAppsNinja GitHub Organization, you will need to request a new course be prepared for you by opening an issue ticket on the &lt;a href="https://github.com/ModernAppsNinja/modernappsninja.github.io/">https://github.com/ModernAppsNinja/modernappsninja.github.io/&lt;/a> repository.&lt;/p>
+&lt;p>To create a new course:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>You must have Collaborator or higher level permissions in the ModernAppsNinja GitHub organization to run this workflow&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Navigate to the &lt;a href="https://github.com/ModernAppsNinja/course_repo_template_ct8279/actions/workflows/create_new_course.yml">create new course workflow on the actions tab of the new course template repository&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Initiate a &lt;code>create a new course workflow&lt;/code> action&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>A New course repository will be created with the initial scaffolding setup, based on a copy of this repository&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Follow these instructions to add your content and set up the course catalog card, tests and the completion certificate&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Once you have setup the new course content, Initiate a &amp;ldquo;Publish this course&amp;rdquo; workflow from the new course template, and your new course will be published!&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>The github user account that initiates the course creation workflow request will be given maintainer persmissions on the new course repository, and can push or approve merges to content during course development. Once the course is ready to be published, branch protection settings will be added that will require at least two maintainers to approve changes.&lt;/p>
+&lt;p>Every section in this repository after the New Course Template instructions are direct copies of an early version of the ModernApps Skills 101 course.&lt;/p>
+&lt;p>You may use the following sections and pages in this template as a reference. Modify, delete or add pages to customize the content in the newly created course repository with your desired course materials.&lt;/p>
+&lt;p>You can find additional details on how to set up tests and completion certificates on the following pages in this section.&lt;/p>
+&lt;p>This course template is based on Google&amp;rsquo;s Docsy template, which provides detailed instructions you can use as a reference for modifying this template. Detailed instructions for the Docsy template can be found at &lt;a href="https://docsy.dev">https://docsy.dev&lt;/a>.&lt;/p>
+&lt;p>Once you have completed preparing your desired content and have verified it is ready for live publication, please go to the actions tab of the github repository for this course and initiate the &lt;code>Publish This Course&lt;/code> workflow. The workflow will add branch protection settings, and submit a pull request that, when approved, will display the course in the modernapps.ninja course catalog.&lt;/p>
+&lt;p>If you have any questions or need any assistance, please open an issue ticket on the &lt;a href="https://github.com/modernappsninja/modernappsninja.gitub.io">https://github.com/modernappsninja/modernappsninja.gitub.io&lt;/a> repository.&lt;/p></description></item><item><title>Docs: Course Introduction</title><link>https://modernappsninja.github.io/tap101_tp9594/docs/courseintroduction/</link><pubDate>Mon, 12 Oct 2020 18:34:25 -0700</pubDate><guid>https://modernappsninja.github.io/tap101_tp9594/docs/courseintroduction/</guid><description>
+&lt;ul>
+&lt;li>&lt;a href="#about-this-course">About this Course&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#prerequisites">Prerequisites&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#course-input--feedback">Course Input &amp;amp; Feedback&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#content-accuracy-and-refresh-cycle">Content Accuracy and Refresh Cycle&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#thank-you-for-participating">Thank you for participating!&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="about-this-course">About this Course&lt;/h2>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/5ScnewvBayk" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;p>This course provides an introduction to the ModernApps Learning community. The community is much more than just content and is really intended to be an active community of professionals learning and working towards applying new skills in cloud native technologies.&lt;/p>
+&lt;p>The ModernApps Learning community uses devops tools to deliver all the features provided by the platform to participate in courses, collaboration and other community assets. When you register with the community you fill out an issue ticket. To enroll in a course you will post a new file to the course repository. When you take a test you will modify an existing file in the repository. While registration, enrollment and testing are normal features of Learning Management Systems (LMS), the ModernApps Learning Platform is not an LMS, it is a devops system where each of these features is implemented as a CI/CD workflow using GitHub Actions. This means participating in a course is just like working on a devops project; you will use GitHub messaging to collaborate with peers and open pull requests to edit or post files to a repository to participate in each course.&lt;/p>
+&lt;p>By the time you have taken your first course, you will have learned these core skills which represent the most common and important skills to begin participating and contributing to a modern devops and/or open source projects.&lt;/p>
+&lt;p>While participating in a course gets you started on foundational devops skills, the ModernApps Learning Platform provides a unique opportunity for members to learn and practice devops skills in a real production context. Every aspect of the ModernApps Learning Program is managed openly in conjunction with the community. Our vision, goals, roadmap, planning, code, infrastructure etcetera are all managed by and for the community, which is designed with guidelines and guardrails to help participants learn by doing in a step-by-step guided path towards increasing production-grade experience.&lt;/p>
+&lt;p>In this course you will learn the foundational skills to participate in ModernApps Learning courses at the 100 level, including how to register with the community, use community collaboration tools, participate in events, enroll in courses, take tests, and request course completion badges.&lt;/p>
+&lt;p>If you complete all steps in this course, you can request a certificate of completion by following the instructions provided at the end of the course.&lt;/p>
+&lt;p>This course is a community effort, to be able to keep up the material, we really need your help to report issues, suggest improvements, or help with the many volunteer opportunities available to support the community.&lt;/p>
+&lt;h2 id="prerequisites">Prerequisites&lt;/h2>
+&lt;p>This course has no prerequisites.&lt;/p>
+&lt;h2 id="course-input--feedback">Course Input &amp;amp; Feedback&lt;/h2>
+&lt;p>Your feedback for this course is critical to help ensure we can improve course content and quality and is greatly appreciated!&lt;/p>
+&lt;p>If you see any problems or suggestions for improvement in this course, the community is very grateful for your help. The simplest way to provide your input is to click the Edit this page link on the right nav bar on each page on this site, and it will open a page to a simple web text editor where you can easily make any update or suggested input you have and then click a button to submit your update. If the course administrators approve your update, the commit and each line you update will be shown on your public Github profile and add value to your professional portfolio, and you will be listed as a contributor to the site.&lt;/p>
+&lt;p>If you would prefer to provide feedback through a feedback form, all feedback is crucial to helping the community provide the best content we can. To submit feedback, general questions or support requests, please click the “Open Issue Ticket” link found on the right navigation bar on each page of this course site.&lt;/p>
+&lt;p>The community thanks you for your feedback and contributions!&lt;/p>
+&lt;h2 id="content-accuracy-and-refresh-cycle">Content Accuracy and Refresh Cycle&lt;/h2>
+&lt;p>We make a strong effort to keep the content in this course as current as possible, however the Tanzu Portfolio is rapidly growing and there may be times where this course may not include the newest updates. Always refer to the official VMware Tanzu Portfiolio Website and your VMware account team for the latest details on products covered in this course.&lt;/p>
+&lt;p>As part of our effort to keep this course as up-to-date as possible, this course is on a continuous update lifecycle. This means that the course can be updated at any time, and new content and requirements may be added while you are taking your course. We will make effort to notify members in advance of any significant updates are made to minimize any unexpected changes to course completion requirements.&lt;/p>
+&lt;h2 id="thank-you-for-participating">Thank you for participating!&lt;/h2></description></item><item><title>Docs: Content Overview</title><link>https://modernappsninja.github.io/tap101_tp9594/docs/contentoverview/</link><pubDate>Mon, 12 Oct 2020 18:34:25 -0700</pubDate><guid>https://modernappsninja.github.io/tap101_tp9594/docs/contentoverview/</guid><description>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/k5WIDlV_FBo" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div></description></item><item><title>Docs: Collaboration, Feedback, and Support</title><link>https://modernappsninja.github.io/tap101_tp9594/docs/collaborationfeedbacksupport/</link><pubDate>Mon, 12 Oct 2020 18:34:25 -0700</pubDate><guid>https://modernappsninja.github.io/tap101_tp9594/docs/collaborationfeedbacksupport/</guid><description>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/Aviobz_z7hE" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div></description></item></channel></rss>

@@ -1,0 +1,28 @@
+---
+## This Document Provides the Front Matter and Metadata for the Course Information page used in the modernapps.ninja homepage and the member profile page.
+### Hugo Template Metadata
+title: "Intro to Tanzu Application Platform"
+date: "2022-03-14T22:54:42Z"
+draft: true
+# meta description
+description: "Introduction to VMware Tanzu Application Platform"
+# course thumbnail
+image: "https://modernapps.ninja/tap101_tp9594/admin/assets/images/tap101_tp9594.jpg"
+# taxonomy
+tags: ["Tanzu Portfiolio"]
+# teacher
+teacher: "Ninja Admins"
+# duration
+duration: "0 Hours"
+# course fee
+fee: "Free!"
+# apply url
+apply_url: "https://modernapps.github.io/tap101_tp9594"
+# type
+type: "course"
+### Extended Ninja Course Metadata
+content_id: tp9594
+course_short_title: tap101
+course_navbar_title: Tanzu Application Platform 101
+course_repo_name: tap101_tp9594
+---  
