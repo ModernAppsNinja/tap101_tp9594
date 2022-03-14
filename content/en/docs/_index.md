@@ -1,6 +1,6 @@
 ---
-title: "ModernApps Ninja New Course Template"
-linkTitle: "New Course Template"
+title: "Intro to Tanzu Application Platform"
+linkTitle: "Tanzu Application Platform 101"
 weight: 20
 menu:
   main:
